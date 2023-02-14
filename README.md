@@ -1,41 +1,31 @@
 # Chat App using React Native Expo and Firebase
 
+![React-Native-Chat-App](https://user-images.githubusercontent.com/72680556/218610239-a586118f-5c2f-4eb6-ad8f-e6661289266d.jpg)
 
-- See a video tutorial showing how to clone this repository 👉🏼 [https://www.youtube.com/watch?v=iHrTQDHq1WI&t=385s](https://www.youtube.com/watch?v=iHrTQDHq1WI&t=385s)
+This is a real-time chat app built with React Native, Firebase and Firestore. for those who don't know, Firebase is a cloud-based real-time database. It provide many features to manage your data, here we have a list of the most important to me 😅:
+<li> Authentication
+<li> Storage
+<li> Database
+<li> Firestore
+<li> Analytics
+<li> AdMob
+  
+If you would like to know more about Firebase, you can check out the docs.
+  
+# About this app
+This tutorial is perfect for those who are new to React Native and want to learn how to add real-time functionaluty to their app as well as authentication and storage.
+Design
+This app design was provided to me by the design team at Eco Studios. Here is the design if you want to play with it 👉🏼 Figma Design.
+Dependencies
+You can use Yarn or NPM to install the dependencies. In this case we use Yarn and since this project was developed using expo we can also use the expo-cli to install the dependencies.
+expo install firebase
+expo install expo-constants dotenv
+expo install react-native-gesture-handler
+expo install react-native-screens
+expo install react-native-safe-area-context
+expo install react-native-masked-view
+yarn add react-native-gifted-chat
+yarn add @react-navigation/native-stack @react-navigation/native
 
-- Check out the Tutorial 👉🏼 [https://www.youtube.com/watch?v=B6bKBiljKxU&t=323s](https://www.youtube.com/watch?v=B6bKBiljKxU&t=323s)
-
-## How to clone
-
-Clone the repo
-```
-git clone https://github.com/betomoedano/ChatApp.git
-```
-
-cd into the just created project and install dependencies with yarn
-```
-cd ChatApp && yarn
-```
-
-Add your firebase backend config in the `firebase.js` file
-```
-const firebaseConfig = {
-  apiKey: Constants.manifest.extra.apiKey,
-  authDomain: Constants.manifest.extra.authDomain,
-  projectId: Constants.manifest.extra.projectId,
-  storageBucket: Constants.manifest.extra.storageBucket,
-  messagingSenderId: Constants.manifest.extra.messagingSenderId,
-  appId: Constants.manifest.extra.appId,
-  databaseURL: Constants.manifest.extra.databaseURL
-};
-```
-
-Run the project
-```
-expo start
-```
-
-Congratulations 🎉 Now you have a functional Chat App working locally
-
-Subscribe to [my channel](https://youtube.com/c/BetoMoedano)
-![Miniature](https://user-images.githubusercontent.com/43630417/167732465-f02c0dea-48db-4e23-ab26-90ca69115251.png)
+# Conclusion
+As I said at the beginning, this is a great project for begginers and even for those who are not new to React Native. I bealive this is a grat project to have in a resume or portfolio. I am very happy with the app and I hope you will enjoy it as well.
