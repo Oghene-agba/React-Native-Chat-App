@@ -22,14 +22,19 @@ This app design was provided to me by the design team at Eco Studios. Here is th
 You can use Yarn or NPM to install the dependencies. In this case we use Yarn and since this project was developed using expo we can also use the expo-cli to install the dependencies.
 <pre>
 <code>
-expo install firebase
-expo install expo-constants dotenv
-expo install react-native-gesture-handler
-expo install react-native-screens
-expo install react-native-safe-area-context
-expo install react-native-masked-view
 yarn add react-native-gifted-chat
-yarn add @react-navigation/native-stack @react-navigation/native
+@react-navigation/native-stack @react-navigation/native
+</code>
+</pre>
+
+<pre>
+<code>
+expo install firebase
+expo-constants dotenv
+react-native-gesture-handler
+react-native-screens
+react-native-safe-area-context
+react-native-masked-view
 </code>
 </pre>
   
